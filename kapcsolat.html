@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kapcsolat - STYLE.UP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">STYLE<span>.</span>UP</a>
+      <nav>
+        <a href="index.html">Főoldal</a>
+        <a href="termekek.html">Termékek</a>
+        <a href="kapcsolat.html" class="aktiv">Kapcsolat</a>
+      </nav>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <h2>Kapcsolat</h2>
+      <div class="kapcsolat-doboz">
+
+        <div class="adatok">
+          <h3>Elérhetőségeink</h3>
+          <br>
+          <p><b>Cím:</b> 1051 Budapest, Példa utca 12.</p>
+          <p><b>Telefon:</b> +36 30 123 4567</p>
+          <p><b>E-mail:</b> hello@styleup.hu</p>
+          <p><b>Nyitvatartás:</b><br>Hétfő–péntek: 9:00–18:00<br>Szombat: 10:00–14:00</p>
+        </div>
+
+        <form action="mailto:hello@styleup.hu" method="post" enctype="text/plain">
+          <h3>Írj nekünk!</h3>
+          <br>
+          <label for="nev">Neved</label>
+          <input type="text" id="nev" name="nev" required>
+
+          <label for="email">E-mail címed</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="uzenet">Üzenet</label>
+          <textarea id="uzenet" name="uzenet" required></textarea>
+
+          <button type="submit" class="gomb">Küldés</button>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="lablec-oszlopok">
+        <div>
+          <h4>STYLE.UP</h4>
+          <p>Ruhák és kiegészítők<br>mindenkinek.</p>
+        </div>
+        <div>
+          <h4>Oldalak</h4>
+          <a href="index.html">Főoldal</a>
+          <a href="termekek.html">Termékek</a>
+          <a href="kapcsolat.html">Kapcsolat</a>
+        </div>
+        <div>
+          <h4>Elérhetőség</h4>
+          <p>hello@styleup.hu</p>
+          <p>+36 30 123 4567</p>
+        </div>
+      </div>
+      <div class="copy">© 2026 STYLE.UP</div>
+    </div>
+  </footer>
+
+</body>
+</html>
