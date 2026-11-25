@@ -3,131 +3,223 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Termékek - STYLE.UP</title>
+  <title>Termékek – STYLE.UP</title>
+  <meta name="description" content="STYLE.UP termékek: kabátok, cipők, pólók és kiegészítők.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <div class="container">
-      <a href="index.html" class="logo">STYLE<span>.</span>UP</a>
-      <nav>
-        <a href="index.html">Főoldal</a>
-        <a href="termekek.html" class="aktiv">Termékek</a>
-        <a href="kapcsolat.html">Kapcsolat</a>
+  <!-- FEJLÉC -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo" aria-label="STYLE.UP főoldal">
+        <span class="grad">STYLE</span><span class="dot">.</span><span>UP</span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Menü megnyitása">
+      <label for="nav-toggle" class="burger" aria-hidden="true"><span></span><span></span><span></span></label>
+
+      <nav class="main-nav" aria-label="Fő navigáció">
+        <ul>
+          <li><a href="index.html">Főoldal</a></li>
+          <li><a href="termekek.html" class="active">Termékek</a></li>
+          <li><a href="kapcsolat.html">Kapcsolat</a></li>
+          <li><a href="kapcsolat.html" class="cta">Rendelés</a></li>
+        </ul>
       </nav>
     </div>
   </header>
 
-  <section>
-    <div class="container">
-      <h2>Termékeink</h2>
-      <div class="kartyak">
-
-        <div class="kartya">
-          <div class="kep">Dzseki</div>
-          <div class="tartalom">
-            <h3>Bomber dzseki</h3>
-            <p>Könnyű dzseki tavaszra és őszre.</p>
-            <div class="ar">24 990 Ft</div>
-            <a href="kapcsolat.html" class="gomb">Megrendelem</a>
-          </div>
-        </div>
-
-        <div class="kartya">
-          <div class="kep k2">Cipő</div>
-          <div class="tartalom">
-            <h3>Sneaker cipő</h3>
-            <p>Kényelmes cipő mindennapi használatra.</p>
-            <div class="ar">29 990 Ft</div>
-            <a href="kapcsolat.html" class="gomb">Megrendelem</a>
-          </div>
-        </div>
-
-        <div class="kartya">
-          <div class="kep k3">Hátizsák</div>
-          <div class="tartalom">
-            <h3>Városi hátizsák</h3>
-            <p>Sok hely, vízálló anyag.</p>
-            <div class="ar">15 990 Ft</div>
-            <a href="kapcsolat.html" class="gomb">Megrendelem</a>
-          </div>
-        </div>
-
-        <div class="kartya">
-          <div class="kep k4">Póló</div>
-          <div class="tartalom">
-            <h3>Oversize póló</h3>
-            <p>Puha pamut, bő fazon.</p>
-            <div class="ar">8 990 Ft</div>
-            <a href="kapcsolat.html" class="gomb">Megrendelem</a>
-          </div>
-        </div>
-
-        <div class="kartya">
-          <div class="kep k2">Sapka</div>
-          <div class="tartalom">
-            <h3>Baseball sapka</h3>
-            <p>Állítható pánttal, hímzett logóval.</p>
-            <div class="ar">6 490 Ft</div>
-            <a href="kapcsolat.html" class="gomb">Megrendelem</a>
-          </div>
-        </div>
-
-        <div class="kartya">
-          <div class="kep">Nadrág</div>
-          <div class="tartalom">
-            <h3>Cargo nadrág</h3>
-            <p>Sok zsebes, strapabíró nadrág.</p>
-            <div class="ar">19 990 Ft</div>
-            <a href="kapcsolat.html" class="gomb">Megrendelem</a>
-          </div>
-        </div>
-
-        <div class="kartya">
-          <div class="kep k3">Napszemüveg</div>
-          <div class="tartalom">
-            <h3>Napszemüveg</h3>
-            <p>UV védelemmel, könnyű kerettel.</p>
-            <div class="ar">9 990 Ft</div>
-            <a href="kapcsolat.html" class="gomb">Megrendelem</a>
-          </div>
-        </div>
-
-        <div class="kartya">
-          <div class="kep k4">Sál</div>
-          <div class="tartalom">
-            <h3>Meleg sál</h3>
-            <p>Puha sál a hidegebb napokra.</p>
-            <div class="ar">7 490 Ft</div>
-            <a href="kapcsolat.html" class="gomb">Megrendelem</a>
-          </div>
-        </div>
-
+  <main>
+    <section class="page-hero">
+      <span class="blob b1"></span>
+      <span class="blob b2"></span>
+      <div class="container">
+        <span class="eyebrow">Kollekció 2026</span>
+        <h1>Termékeink – <span class="grad-text">találd meg a stílusod</span></h1>
+        <p>Válogass kabátok, cipők, pólók és kiegészítők között. Minden darab egyedi, minden darab te vagy.</p>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <footer>
-    <div class="container">
-      <div class="lablec-oszlopok">
-        <div>
-          <h4>STYLE.UP</h4>
-          <p>Ruhák és kiegészítők<br>mindenkinek.</p>
+    <section class="section" style="padding-top:2rem;">
+      <div class="container">
+        <div class="grid">
+
+          <article class="card">
+            <div class="card-img g1"><span class="badge">Újdonság</span><span>🧥</span></div>
+            <div class="card-body">
+              <div class="card-cat">Kabátok</div>
+              <h3>Neon Bomber Dzseki</h3>
+              <p>Könnyű, vízlepergető bomber dzseki kékes-lila átmenettel.</p>
+              <div class="card-foot">
+                <div class="price">24 990 Ft</div>
+                <a href="kapcsolat.html" class="btn btn-primary btn-sm">Megrendelem</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img g2"><span class="badge">Bestseller</span><span>👟</span></div>
+            <div class="card-body">
+              <div class="card-cat">Cipők</div>
+              <h3>Cloud Runner Sneaker</h3>
+              <p>Párnázott talp, légáteresztő felsőrész, egész napos kényelem.</p>
+              <div class="card-foot">
+                <div class="price">29 990 Ft</div>
+                <a href="kapcsolat.html" class="btn btn-primary btn-sm">Megrendelem</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img g3"><span class="badge">-20%</span><span>🎒</span></div>
+            <div class="card-body">
+              <div class="card-cat">Kiegészítők</div>
+              <h3>Aurora Hátizsák</h3>
+              <p>Minimalista, vízálló hátizsák laptoptartó rekesszel.</p>
+              <div class="card-foot">
+                <div class="price">15 990 Ft <small>19 990 Ft</small></div>
+                <a href="kapcsolat.html" class="btn btn-primary btn-sm">Megrendelem</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img g4"><span class="badge">Népszerű</span><span>👕</span></div>
+            <div class="card-body">
+              <div class="card-cat">Pólók</div>
+              <h3>Midnight Oversize Póló</h3>
+              <p>Puha pamut, bő fazon, mély éjkék színben.</p>
+              <div class="card-foot">
+                <div class="price">8 990 Ft</div>
+                <a href="kapcsolat.html" class="btn btn-primary btn-sm">Megrendelem</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img g5"><span class="badge">Limitált</span><span>🧢</span></div>
+            <div class="card-body">
+              <div class="card-cat">Kiegészítők</div>
+              <h3>Prism Baseball Sapka</h3>
+              <p>Állítható pánt, hímzett STYLE.UP logó, opálos hatású szövet.</p>
+              <div class="card-foot">
+                <div class="price">6 490 Ft</div>
+                <a href="kapcsolat.html" class="btn btn-primary btn-sm">Megrendelem</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img g6"><span class="badge">Újdonság</span><span>👖</span></div>
+            <div class="card-body">
+              <div class="card-cat">Nadrágok</div>
+              <h3>Violet Cargo Nadrág</h3>
+              <p>Sok zsebes, rugalmas anyagú, városi cargo nadrág.</p>
+              <div class="card-foot">
+                <div class="price">19 990 Ft</div>
+                <a href="kapcsolat.html" class="btn btn-primary btn-sm">Megrendelem</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img g7"><span class="badge">-15%</span><span>🕶️</span></div>
+            <div class="card-body">
+              <div class="card-cat">Kiegészítők</div>
+              <h3>Haze Napszemüveg</h3>
+              <p>UV400 védelem, könnyű keret, lila árnyalatú lencsék.</p>
+              <div class="card-foot">
+                <div class="price">9 990 Ft <small>11 990 Ft</small></div>
+                <a href="kapcsolat.html" class="btn btn-primary btn-sm">Megrendelem</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img g8"><span class="badge">Bestseller</span><span>🧣</span></div>
+            <div class="card-body">
+              <div class="card-cat">Kiegészítők</div>
+              <h3>Galaxy Sál</h3>
+              <p>Meleg, puha, átmenetes mintájú sál a hidegebb napokra.</p>
+              <div class="card-foot">
+                <div class="price">7 490 Ft</div>
+                <a href="kapcsolat.html" class="btn btn-primary btn-sm">Megrendelem</a>
+              </div>
+            </div>
+          </article>
+
         </div>
-        <div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta-band">
+          <h2>Nem találod, amit keresel?</h2>
+          <p>Írj nekünk, és segítünk megtalálni a tökéletes darabot.</p>
+          <a href="kapcsolat.html" class="btn">Kapcsolat</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- LÁBLÉC -->
+  <footer class="site-footer">
+    <div class="footer-glow"></div>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo"><span class="grad">STYLE</span><span class="dot">.</span><span>UP</span></a>
+          <p>Modern divat, különleges színek, egyedi stílus. Öltözz úgy, ahogy érzed magad.</p>
+          <div class="socials">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="TikTok">TT</a>
+            <a href="#" aria-label="YouTube">YT</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
           <h4>Oldalak</h4>
-          <a href="index.html">Főoldal</a>
-          <a href="termekek.html">Termékek</a>
-          <a href="kapcsolat.html">Kapcsolat</a>
+          <ul>
+            <li><a href="index.html">Főoldal</a></li>
+            <li><a href="termekek.html">Termékek</a></li>
+            <li><a href="kapcsolat.html">Kapcsolat</a></li>
+          </ul>
         </div>
-        <div>
-          <h4>Elérhetőség</h4>
-          <p>hello@styleup.hu</p>
-          <p>+36 30 123 4567</p>
+
+        <div class="footer-col">
+          <h4>Kategóriák</h4>
+          <ul>
+            <li><a href="termekek.html">Kabátok</a></li>
+            <li><a href="termekek.html">Cipők</a></li>
+            <li><a href="termekek.html">Kiegészítők</a></li>
+            <li><a href="termekek.html">Pólók</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Hírlevél</h4>
+          <p>Légy te az első, aki értesül az akciókról!</p>
+          <form class="newsletter" action="#" method="post">
+            <input type="email" placeholder="E-mail címed" aria-label="E-mail cím" required>
+            <button type="submit">Feliratkozom</button>
+          </form>
         </div>
       </div>
-      <div class="copy">© 2026 STYLE.UP</div>
+
+      <div class="footer-bottom">
+        <span>© 2026 STYLE.UP. Minden jog fenntartva.</span>
+        <nav>
+          <a href="#">Adatvédelem</a>
+          <a href="#">ÁSZF</a>
+          <a href="#">Sütik</a>
+        </nav>
+      </div>
     </div>
   </footer>
 

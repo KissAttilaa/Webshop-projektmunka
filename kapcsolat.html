@@ -3,75 +3,173 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kapcsolat - STYLE.UP</title>
+  <title>Kapcsolat – STYLE.UP</title>
+  <meta name="description" content="Lépj kapcsolatba a STYLE.UP csapatával.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <div class="container">
-      <a href="index.html" class="logo">STYLE<span>.</span>UP</a>
-      <nav>
-        <a href="index.html">Főoldal</a>
-        <a href="termekek.html">Termékek</a>
-        <a href="kapcsolat.html" class="aktiv">Kapcsolat</a>
+  <!-- FEJLÉC -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo" aria-label="STYLE.UP főoldal">
+        <span class="grad">STYLE</span><span class="dot">.</span><span>UP</span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Menü megnyitása">
+      <label for="nav-toggle" class="burger" aria-hidden="true"><span></span><span></span><span></span></label>
+
+      <nav class="main-nav" aria-label="Fő navigáció">
+        <ul>
+          <li><a href="index.html">Főoldal</a></li>
+          <li><a href="termekek.html">Termékek</a></li>
+          <li><a href="kapcsolat.html" class="active">Kapcsolat</a></li>
+          <li><a href="termekek.html" class="cta">Vásárlás</a></li>
+        </ul>
       </nav>
     </div>
   </header>
 
-  <section>
-    <div class="container">
-      <h2>Kapcsolat</h2>
-      <div class="kapcsolat-doboz">
+  <main>
+    <section class="page-hero">
+      <span class="blob b1"></span>
+      <span class="blob b2"></span>
+      <div class="container">
+        <span class="eyebrow">Itt vagyunk neked</span>
+        <h1>Lépj velünk <span class="grad-text">kapcsolatba</span></h1>
+        <p>Kérdésed van, vagy segítség kell a választásban? Írj nekünk, és 24 órán belül válaszolunk.</p>
+      </div>
+    </section>
 
-        <div class="adatok">
-          <h3>Elérhetőségeink</h3>
-          <br>
-          <p><b>Cím:</b> 1051 Budapest, Példa utca 12.</p>
-          <p><b>Telefon:</b> +36 30 123 4567</p>
-          <p><b>E-mail:</b> hello@styleup.hu</p>
-          <p><b>Nyitvatartás:</b><br>Hétfő–péntek: 9:00–18:00<br>Szombat: 10:00–14:00</p>
+    <section class="section" style="padding-top:2rem;">
+      <div class="container contact-grid">
+
+        <div class="info-list">
+          <div class="info-item">
+            <div class="ico">📍</div>
+            <div>
+              <h3>Cím</h3>
+              <p>1051 Budapest, Példa utca 12.</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="ico">📞</div>
+            <div>
+              <h3>Telefon</h3>
+              <p>+36 30 123 4567</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="ico">✉️</div>
+            <div>
+              <h3>E-mail</h3>
+              <p>hello@styleup.hu</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="ico">🕘</div>
+            <div>
+              <h3>Nyitvatartás</h3>
+              <p>H–P: 9:00–18:00 · Szo: 10:00–14:00</p>
+            </div>
+          </div>
         </div>
 
-        <form action="mailto:hello@styleup.hu" method="post" enctype="text/plain">
-          <h3>Írj nekünk!</h3>
-          <br>
-          <label for="nev">Neved</label>
-          <input type="text" id="nev" name="nev" required>
+        <div class="form-card">
+          <h2>Írj nekünk</h2>
+          <p>Töltsd ki az űrlapot, és hamarosan jelentkezünk.</p>
 
-          <label for="email">E-mail címed</label>
-          <input type="email" id="email" name="email" required>
+          <form action="mailto:hello@styleup.hu" method="post" enctype="text/plain">
+            <div class="form-row">
+              <div class="field">
+                <label for="nev">Név</label>
+                <input type="text" id="nev" name="nev" placeholder="Kovács Anna" required>
+              </div>
+              <div class="field">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="anna@email.hu" required>
+              </div>
+            </div>
 
-          <label for="uzenet">Üzenet</label>
-          <textarea id="uzenet" name="uzenet" required></textarea>
+            <div class="field">
+              <label for="tema">Téma</label>
+              <select id="tema" name="tema">
+                <option>Általános kérdés</option>
+                <option>Rendelés</option>
+                <option>Csere / visszaküldés</option>
+                <option>Együttműködés</option>
+              </select>
+            </div>
 
-          <button type="submit" class="gomb">Küldés</button>
-        </form>
+            <div class="field">
+              <label for="uzenet">Üzenet</label>
+              <textarea id="uzenet" name="uzenet" placeholder="Miben segíthetünk?" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Üzenet küldése →</button>
+          </form>
+        </div>
 
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
-  <footer>
+  <!-- LÁBLÉC -->
+  <footer class="site-footer">
+    <div class="footer-glow"></div>
     <div class="container">
-      <div class="lablec-oszlopok">
-        <div>
-          <h4>STYLE.UP</h4>
-          <p>Ruhák és kiegészítők<br>mindenkinek.</p>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo"><span class="grad">STYLE</span><span class="dot">.</span><span>UP</span></a>
+          <p>Modern divat, különleges színek, egyedi stílus. Öltözz úgy, ahogy érzed magad.</p>
+          <div class="socials">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="TikTok">TT</a>
+            <a href="#" aria-label="YouTube">YT</a>
+          </div>
         </div>
-        <div>
+
+        <div class="footer-col">
           <h4>Oldalak</h4>
-          <a href="index.html">Főoldal</a>
-          <a href="termekek.html">Termékek</a>
-          <a href="kapcsolat.html">Kapcsolat</a>
+          <ul>
+            <li><a href="index.html">Főoldal</a></li>
+            <li><a href="termekek.html">Termékek</a></li>
+            <li><a href="kapcsolat.html">Kapcsolat</a></li>
+          </ul>
         </div>
-        <div>
-          <h4>Elérhetőség</h4>
-          <p>hello@styleup.hu</p>
-          <p>+36 30 123 4567</p>
+
+        <div class="footer-col">
+          <h4>Kategóriák</h4>
+          <ul>
+            <li><a href="termekek.html">Kabátok</a></li>
+            <li><a href="termekek.html">Cipők</a></li>
+            <li><a href="termekek.html">Kiegészítők</a></li>
+            <li><a href="termekek.html">Pólók</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Hírlevél</h4>
+          <p>Légy te az első, aki értesül az akciókról!</p>
+          <form class="newsletter" action="#" method="post">
+            <input type="email" placeholder="E-mail címed" aria-label="E-mail cím" required>
+            <button type="submit">Feliratkozom</button>
+          </form>
         </div>
       </div>
-      <div class="copy">© 2026 STYLE.UP</div>
+
+      <div class="footer-bottom">
+        <span>© 2026 STYLE.UP. Minden jog fenntartva.</span>
+        <nav>
+          <a href="#">Adatvédelem</a>
+          <a href="#">ÁSZF</a>
+          <a href="#">Sütik</a>
+        </nav>
+      </div>
     </div>
   </footer>
 

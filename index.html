@@ -3,100 +3,215 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>STYLE.UP</title>
+  <title>STYLE.UP – Öltözz stílusosan</title>
+  <meta name="description" content="STYLE.UP – modern, különleges divat és kiegészítők egy helyen.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <div class="container">
-      <a href="index.html" class="logo">STYLE<span>.</span>UP</a>
-      <nav>
-        <a href="index.html" class="aktiv">Főoldal</a>
-        <a href="termekek.html">Termékek</a>
-        <a href="kapcsolat.html">Kapcsolat</a>
+  <!-- FEJLÉC -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo" aria-label="STYLE.UP főoldal">
+        <span class="grad">STYLE</span><span class="dot">.</span><span>UP</span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Menü megnyitása">
+      <label for="nav-toggle" class="burger" aria-hidden="true"><span></span><span></span><span></span></label>
+
+      <nav class="main-nav" aria-label="Fő navigáció">
+        <ul>
+          <li><a href="index.html" class="active">Főoldal</a></li>
+          <li><a href="termekek.html">Termékek</a></li>
+          <li><a href="kapcsolat.html">Kapcsolat</a></li>
+          <li><a href="termekek.html" class="cta">Vásárlás</a></li>
+        </ul>
       </nav>
     </div>
   </header>
 
-  <div class="hero">
-    <div class="container">
-      <h1>Üdv a STYLE.UP-on!</h1>
-      <p>Ruhák és kiegészítők, amikben jó érzés megjelenni.</p>
-      <a href="termekek.html" class="gomb">Nézd meg a termékeket</a>
-    </div>
-  </div>
-
-  <section>
-    <div class="container">
-      <h2>Rólunk</h2>
-      <p class="szoveg">
-        A STYLE.UP egy kis webshop, ahol egyszerű, kényelmes és színes ruhákat találsz.
-        Szeretjük, ha mindenki úgy öltözhet, ahogy szeretne, ezért igyekszünk
-        minden stílushoz kínálni valamit.
-      </p>
-    </div>
-  </section>
-
-  <section>
-    <div class="container">
-      <h2>Népszerű termékek</h2>
-      <div class="kartyak">
-
-        <div class="kartya">
-          <div class="kep">Dzseki</div>
-          <div class="tartalom">
-            <h3>Bomber dzseki</h3>
-            <p>Könnyű dzseki tavaszra és őszre.</p>
-            <div class="ar">24 990 Ft</div>
-            <a href="termekek.html" class="gomb">Részletek</a>
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <span class="blob b1"></span>
+      <span class="blob b2"></span>
+      <span class="blob b3"></span>
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Új kollekció 2026</span>
+          <h1>Öltözz <span class="grad-text">stílusosan,</span> légy önmagad.</h1>
+          <p class="lead">Felfedezd a STYLE.UP különleges ruháit és kiegészítőit – modern fazonok, élénk színek és kényelmes anyagok mindenkinek.</p>
+          <div class="hero-actions">
+            <a href="termekek.html" class="btn btn-primary">Termékek megtekintése →</a>
+            <a href="kapcsolat.html" class="btn btn-ghost">Kapcsolatfelvétel</a>
+          </div>
+          <div class="stats">
+            <div><strong>12K+</strong><span>Elégedett vásárló</span></div>
+            <div><strong>350+</strong><span>Egyedi darab</span></div>
+            <div><strong>4.9★</strong><span>Átlagos értékelés</span></div>
           </div>
         </div>
 
-        <div class="kartya">
-          <div class="kep k2">Cipő</div>
-          <div class="tartalom">
-            <h3>Sneaker cipő</h3>
-            <p>Kényelmes cipő mindennapi használatra.</p>
-            <div class="ar">29 990 Ft</div>
-            <a href="termekek.html" class="gomb">Részletek</a>
-          </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="glass main">🧥</div>
+          <div class="glass chip c1"><i>✨</i> Új érkezés</div>
+          <div class="glass chip c2"><i>🚚</i> Ingyenes szállítás</div>
+          <div class="glass chip c3"><i>💜</i> -20% első rendelés</div>
         </div>
-
-        <div class="kartya">
-          <div class="kep k3">Hátizsák</div>
-          <div class="tartalom">
-            <h3>Városi hátizsák</h3>
-            <p>Sok hely, vízálló anyag.</p>
-            <div class="ar">15 990 Ft</div>
-            <a href="termekek.html" class="gomb">Részletek</a>
-          </div>
-        </div>
-
       </div>
-    </div>
-  </section>
+    </section>
 
-  <footer>
-    <div class="container">
-      <div class="lablec-oszlopok">
-        <div>
-          <h4>STYLE.UP</h4>
-          <p>Ruhák és kiegészítők<br>mindenkinek.</p>
+    <!-- ELŐNYÖK -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Miért a <span class="grad-text">STYLE.UP?</span></h2>
+          <p>Mert a divat nálunk nem csak ruha, hanem önkifejezés.</p>
         </div>
-        <div>
+        <div class="features">
+          <article class="feature">
+            <div class="ico">🎨</div>
+            <h3>Egyedi design</h3>
+            <p>Limitált szériás, trendi darabok, amiket máshol nem találsz.</p>
+          </article>
+          <article class="feature">
+            <div class="ico">🌿</div>
+            <h3>Prémium anyagok</h3>
+            <p>Kényelmes, tartós és igényes alapanyagokból készülünk.</p>
+          </article>
+          <article class="feature">
+            <div class="ico">🚀</div>
+            <h3>Gyors szállítás</h3>
+            <p>Akár 24 órán belül nálad lehet a rendelésed.</p>
+          </article>
+          <article class="feature">
+            <div class="ico">🔄</div>
+            <h3>30 napos csere</h3>
+            <p>Ha nem tökéletes, kérdés nélkül cseréljük vagy visszavesszük.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- KIEMELT TERMÉKEK -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Kiemelt <span class="grad-text">termékek</span></h2>
+          <p>A legnépszerűbb darabjaink, amiket mindenki imád.</p>
+        </div>
+
+        <div class="grid three">
+          <article class="card">
+            <div class="card-img g1"><span class="badge">Újdonság</span><span>🧥</span></div>
+            <div class="card-body">
+              <div class="card-cat">Kabátok</div>
+              <h3>Neon Bomber Dzseki</h3>
+              <p>Könnyű, vízlepergető bomber dzseki kékes-lila átmenettel.</p>
+              <div class="card-foot">
+                <div class="price">24 990 Ft</div>
+                <a href="termekek.html" class="btn btn-primary btn-sm">Részletek</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img g2"><span class="badge">Bestseller</span><span>👟</span></div>
+            <div class="card-body">
+              <div class="card-cat">Cipők</div>
+              <h3>Cloud Runner Sneaker</h3>
+              <p>Párnázott talp, légáteresztő felsőrész, egész napos kényelem.</p>
+              <div class="card-foot">
+                <div class="price">29 990 Ft</div>
+                <a href="termekek.html" class="btn btn-primary btn-sm">Részletek</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img g3"><span class="badge">-20%</span><span>🎒</span></div>
+            <div class="card-body">
+              <div class="card-cat">Kiegészítők</div>
+              <h3>Aurora Hátizsák</h3>
+              <p>Minimalista, vízálló hátizsák laptoptartó rekesszel.</p>
+              <div class="card-foot">
+                <div class="price">15 990 Ft <small>19 990 Ft</small></div>
+                <a href="termekek.html" class="btn btn-primary btn-sm">Részletek</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-band">
+          <h2>Készen állsz az újjászületésre?</h2>
+          <p>Iratkozz fel és kapj 20% kedvezményt az első rendelésedből.</p>
+          <a href="kapcsolat.html" class="btn">Lépj velünk kapcsolatba</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- LÁBLÉC -->
+  <footer class="site-footer">
+    <div class="footer-glow"></div>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo"><span class="grad">STYLE</span><span class="dot">.</span><span>UP</span></a>
+          <p>Modern divat, különleges színek, egyedi stílus. Öltözz úgy, ahogy érzed magad.</p>
+          <div class="socials">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="TikTok">TT</a>
+            <a href="#" aria-label="YouTube">YT</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
           <h4>Oldalak</h4>
-          <a href="index.html">Főoldal</a>
-          <a href="termekek.html">Termékek</a>
-          <a href="kapcsolat.html">Kapcsolat</a>
+          <ul>
+            <li><a href="index.html">Főoldal</a></li>
+            <li><a href="termekek.html">Termékek</a></li>
+            <li><a href="kapcsolat.html">Kapcsolat</a></li>
+          </ul>
         </div>
-        <div>
-          <h4>Elérhetőség</h4>
-          <p>hello@styleup.hu</p>
-          <p>+36 30 123 4567</p>
+
+        <div class="footer-col">
+          <h4>Kategóriák</h4>
+          <ul>
+            <li><a href="termekek.html">Kabátok</a></li>
+            <li><a href="termekek.html">Cipők</a></li>
+            <li><a href="termekek.html">Kiegészítők</a></li>
+            <li><a href="termekek.html">Pólók</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Hírlevél</h4>
+          <p>Légy te az első, aki értesül az akciókról!</p>
+          <form class="newsletter" action="#" method="post">
+            <input type="email" placeholder="E-mail címed" aria-label="E-mail cím" required>
+            <button type="submit">Feliratkozom</button>
+          </form>
         </div>
       </div>
-      <div class="copy">© 2026 STYLE.UP</div>
+
+      <div class="footer-bottom">
+        <span>© 2026 STYLE.UP. Minden jog fenntartva.</span>
+        <nav>
+          <a href="#">Adatvédelem</a>
+          <a href="#">ÁSZF</a>
+          <a href="#">Sütik</a>
+        </nav>
+      </div>
     </div>
   </footer>
 
