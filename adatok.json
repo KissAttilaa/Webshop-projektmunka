@@ -1,0 +1,527 @@
+{
+  "store": "style.up",
+  "currency": "HUF",
+  "products": [
+    {
+      "id": 1,
+      "name": "Oversized Puffer Jacket",
+      "brand": "Nike",
+      "category": "Kabát",
+      "price_huf": 54990,
+      "sizes": [
+        36,
+        38,
+        40,
+        42,
+        44
+      ],
+      "color": "Fekete",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=Nike%20Oversized%20Puffer%20Jacket%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 2,
+      "name": "Therma-FIT Winter Parka",
+      "brand": "Nike",
+      "category": "Kabát",
+      "price_huf": 79990,
+      "sizes": [
+        36,
+        38,
+        40,
+        42,
+        44
+      ],
+      "color": "Olívazöld",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=Nike%20Therma-FIT%20Winter%20Parka%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 3,
+      "name": "Down Puffer Jacket",
+      "brand": "Moncler",
+      "category": "Kabát",
+      "price_huf": 389990,
+      "sizes": [
+        36,
+        38,
+        40,
+        42,
+        44
+      ],
+      "color": "Krém",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=Moncler%20Down%20Puffer%20Jacket%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 4,
+      "name": "Short Glossy Puffer",
+      "brand": "Moncler",
+      "category": "Kabát",
+      "price_huf": 329990,
+      "sizes": [
+        36,
+        38,
+        40,
+        42
+      ],
+      "color": "Fekete",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=Moncler%20Short%20Glossy%20Puffer%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 5,
+      "name": "Expedition Parka",
+      "brand": "Canada Goose",
+      "category": "Kabát",
+      "price_huf": 549990,
+      "sizes": [
+        36,
+        38,
+        40,
+        42,
+        44
+      ],
+      "color": "Fekete",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=Canada%20Goose%20Expedition%20Parka%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 6,
+      "name": "Crofton Puffer Jacket",
+      "brand": "Canada Goose",
+      "category": "Kabát",
+      "price_huf": 429990,
+      "sizes": [
+        36,
+        38,
+        40,
+        42,
+        44
+      ],
+      "color": "Bézs",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=Canada%20Goose%20Crofton%20Puffer%20Jacket%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 7,
+      "name": "Nuptse Style Down Jacket",
+      "brand": "The North Face",
+      "category": "Kabát",
+      "price_huf": 99990,
+      "sizes": [
+        36,
+        38,
+        40,
+        42,
+        44
+      ],
+      "color": "Fekete",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=The%20North%20Face%20Nuptse%20Style%20Down%20Jacket%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 8,
+      "name": "Long Insulated Parka",
+      "brand": "The North Face",
+      "category": "Kabát",
+      "price_huf": 129990,
+      "sizes": [
+        36,
+        38,
+        40,
+        42,
+        44
+      ],
+      "color": "Sötétzöld",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=The%20North%20Face%20Long%20Insulated%20Parka%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 9,
+      "name": "Wool Blend Long Coat",
+      "brand": "Hugo Boss",
+      "category": "Kabát",
+      "price_huf": 159990,
+      "sizes": [
+        36,
+        38,
+        40,
+        42
+      ],
+      "color": "Szürke",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=Hugo%20Boss%20Wool%20Blend%20Long%20Coat%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 10,
+      "name": "Tailored Winter Coat",
+      "brand": "Hugo Boss",
+      "category": "Kabát",
+      "price_huf": 189990,
+      "sizes": [
+        36,
+        38,
+        40,
+        42,
+        44
+      ],
+      "color": "Camel",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=Hugo%20Boss%20Tailored%20Winter%20Coat%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 11,
+      "name": "Classic Puffer Jacket",
+      "brand": "Tommy Hilfiger",
+      "category": "Kabát",
+      "price_huf": 99990,
+      "sizes": [
+        36,
+        38,
+        40,
+        42,
+        44
+      ],
+      "color": "Navy",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=Tommy%20Hilfiger%20Classic%20Puffer%20Jacket%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 12,
+      "name": "Quilted Jacket",
+      "brand": "Tommy Hilfiger",
+      "category": "Dzseki",
+      "price_huf": 79990,
+      "sizes": [
+        36,
+        38,
+        40,
+        42
+      ],
+      "color": "Krém",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=Tommy%20Hilfiger%20Quilted%20Jacket%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 13,
+      "name": "Logo Hoodie",
+      "brand": "Calvin Klein",
+      "category": "Pulóver",
+      "price_huf": 44990,
+      "sizes": [
+        36,
+        38,
+        40,
+        42,
+        44
+      ],
+      "color": "Szürke",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=Calvin%20Klein%20Logo%20Hoodie%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 14,
+      "name": "Ribbed Knit Sweater",
+      "brand": "Calvin Klein",
+      "category": "Pulóver",
+      "price_huf": 49990,
+      "sizes": [
+        36,
+        38,
+        40,
+        42
+      ],
+      "color": "Fekete",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=Calvin%20Klein%20Ribbed%20Knit%20Sweater%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 15,
+      "name": "Fleece Full-Zip Jacket",
+      "brand": "Columbia",
+      "category": "Dzseki",
+      "price_huf": 59990,
+      "sizes": [
+        36,
+        38,
+        40,
+        42,
+        44
+      ],
+      "color": "Bézs",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=Columbia%20Fleece%20Full-Zip%20Jacket%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 16,
+      "name": "Insulated Snow Pants",
+      "brand": "Columbia",
+      "category": "Nadrág",
+      "price_huf": 69990,
+      "sizes": [
+        36,
+        38,
+        40,
+        42,
+        44
+      ],
+      "color": "Fekete",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=Columbia%20Insulated%20Snow%20Pants%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 17,
+      "name": "Wide Leg Jeans",
+      "brand": "Calvin Klein",
+      "category": "Farmer",
+      "price_huf": 49990,
+      "sizes": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "color": "Kék",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=Calvin%20Klein%20Wide%20Leg%20Jeans%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 18,
+      "name": "Relaxed Cargo Pants",
+      "brand": "Nike",
+      "category": "Nadrág",
+      "price_huf": 39990,
+      "sizes": [
+        36,
+        38,
+        40,
+        42,
+        44
+      ],
+      "color": "Olívazöld",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=Nike%20Relaxed%20Cargo%20Pants%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 19,
+      "name": "Fleece Joggers",
+      "brand": "The North Face",
+      "category": "Nadrág",
+      "price_huf": 44990,
+      "sizes": [
+        36,
+        38,
+        40,
+        42,
+        44
+      ],
+      "color": "Szürke",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=The%20North%20Face%20Fleece%20Joggers%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 20,
+      "name": "Straight Fit Jeans",
+      "brand": "Tommy Hilfiger",
+      "category": "Farmer",
+      "price_huf": 49990,
+      "sizes": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "color": "Sötétkék",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=Tommy%20Hilfiger%20Straight%20Fit%20Jeans%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 21,
+      "name": "Leather Look Trousers",
+      "brand": "Hugo Boss",
+      "category": "Nadrág",
+      "price_huf": 89990,
+      "sizes": [
+        36,
+        38,
+        40,
+        42
+      ],
+      "color": "Fekete",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=Hugo%20Boss%20Leather%20Look%20Trousers%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 22,
+      "name": "Classic Crewneck Sweatshirt",
+      "brand": "Nike",
+      "category": "Pulóver",
+      "price_huf": 32990,
+      "sizes": [
+        36,
+        38,
+        40,
+        42,
+        44
+      ],
+      "color": "Fehér",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=Nike%20Classic%20Crewneck%20Sweatshirt%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 23,
+      "name": "Cable Knit Sweater",
+      "brand": "Tommy Hilfiger",
+      "category": "Pulóver",
+      "price_huf": 69990,
+      "sizes": [
+        36,
+        38,
+        40,
+        42
+      ],
+      "color": "Bordó",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=Tommy%20Hilfiger%20Cable%20Knit%20Sweater%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 24,
+      "name": "Logo Long Sleeve Top",
+      "brand": "Calvin Klein",
+      "category": "Felső",
+      "price_huf": 29990,
+      "sizes": [
+        36,
+        38,
+        40,
+        42
+      ],
+      "color": "Fehér",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=Calvin%20Klein%20Logo%20Long%20Sleeve%20Top%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 25,
+      "name": "Thermal Base Layer Top",
+      "brand": "Columbia",
+      "category": "Felső",
+      "price_huf": 24990,
+      "sizes": [
+        36,
+        38,
+        40,
+        42,
+        44
+      ],
+      "color": "Fekete",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=Columbia%20Thermal%20Base%20Layer%20Top%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 26,
+      "name": "Fleece Pullover",
+      "brand": "The North Face",
+      "category": "Pulóver",
+      "price_huf": 64990,
+      "sizes": [
+        36,
+        38,
+        40,
+        42,
+        44
+      ],
+      "color": "Bézs",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=The%20North%20Face%20Fleece%20Pullover%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 27,
+      "name": "Minimal Logo Beanie",
+      "brand": "Calvin Klein",
+      "category": "Sapka",
+      "price_huf": 19990,
+      "sizes": [
+        1
+      ],
+      "color": "Fekete",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=Calvin%20Klein%20Minimal%20Logo%20Beanie%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 28,
+      "name": "Gold-Tone Hoop Earrings",
+      "brand": "Hugo Boss",
+      "category": "Ékszer",
+      "price_huf": 24990,
+      "sizes": [
+        1
+      ],
+      "color": "Arany",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=Hugo%20Boss%20Gold-Tone%20Hoop%20Earrings%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 29,
+      "name": "Silver-Tone Chain Necklace",
+      "brand": "Calvin Klein",
+      "category": "Ékszer",
+      "price_huf": 29990,
+      "sizes": [
+        1
+      ],
+      "color": "Ezüst",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=Calvin%20Klein%20Silver-Tone%20Chain%20Necklace%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    },
+    {
+      "id": 30,
+      "name": "Logo Bracelet",
+      "brand": "Tommy Hilfiger",
+      "category": "Ékszer",
+      "price_huf": 27990,
+      "sizes": [
+        1
+      ],
+      "color": "Ezüst",
+      "image_url": null,
+      "image_search_url": "https://www.google.com/search?tbm=isch&q=Tommy%20Hilfiger%20Logo%20Bracelet%20product%20photo",
+      "image_source_note": "Image search link; replace with the selected direct image URL before displaying in the shop."
+    }
+  ]
+}
