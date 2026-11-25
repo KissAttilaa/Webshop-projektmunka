@@ -18,4 +18,4 @@ Fő funkciók:
 ##Projektstruktúra (mappáink): -css -db -img -js -footer.html -index.html -uj-ingtatlan.html -navbar.html -rolunk.html -README
 
 Jövőbeli fejlesztések :
-Felhasználói fiókok a
+Felhasználói fiókok a b 
